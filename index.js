@@ -29,9 +29,11 @@ const createCalendar = () => {
     "March": 'https://wallpaperaccess.com/full/2210016.jpg', "April": 'https://www.intrepidtravel.com/adventures/wp-content/uploads/2018/01/800x450.jpg',
     "May": 'https://wallpaperaccess.com/full/4659626.jpg', "June": 'https://wallpaperaccess.com/full/4330694.jpg',
     "July":'https://www.wallpapers4u.org/wp-content/uploads/sky_nature_lake_clear_90817_1920x1080.jpg', "August": 'https://media.istockphoto.com/photos/sunflower-picture-id490787358?k=6&m=490787358&s=612x612&w=0&h=urWlgaYbRhsaqPXr-nnx8Ek5EfvkvoRBJberzn-wFMM=',
-    "September": 'https://www.wallpapertip.com/wmimgs/98-984551_september-background-hd.jpg', "October": 'https://media.istockphoto.com/photos/halloween-pumpkin-against-an-old-wood-background-picture-id1032952614?k=6&m=1032952614&s=612x612&w=0&h=97NLRDLPmSroJf1ewu8hD5Zv5Bw0SK3G5IGKkjghQ3U=',
+    "September": 'https://lh3.googleusercontent.com/proxy/On1WaOZW-NhoBdjyH5cCdqjKXfDqe-5IY8hp4BRamJK1oOWG-qNpBfVF_GP0qdSid11xikfesn-P8QY5BaGwjZjzNQKN8xvFMV7BxxEDhI9sSeQ', 
+    "October": 'https://media.istockphoto.com/photos/halloween-pumpkin-against-an-old-wood-background-picture-id1032952614?k=6&m=1032952614&s=612x612&w=0&h=97NLRDLPmSroJf1ewu8hD5Zv5Bw0SK3G5IGKkjghQ3U=',
     "November": 'https://www.wallpapertip.com/wmimgs/29-295683_desktop-background-november.jpg',
     "December": 'https://www.pixelstalk.net/wp-content/uploads/2016/11/Merry-Christmas-Tree-HD-Wallpaper.jpg'}
+    
 
     // Sets the background image
     const setBackground = (image) => {

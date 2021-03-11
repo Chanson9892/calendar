@@ -12,6 +12,18 @@ body {
     background-size: cover;
     overflow: hidden;
     transition: background-image 1s linear;
+    min-height: 100%;
+}
+
+.links {
+    position: absolute;
+    padding: .5rem 1rem;
+    top: 120px;
+    right: 100px;
+}
+
+a {
+    margin: 10px;
 }
 
 .wrapper {
