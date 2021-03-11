@@ -10,6 +10,7 @@ html {
 body {
     background-repeat: no-repeat; 
     background-size: cover;
+    overflow: hidden;
 }
 
 .wrapper {
@@ -25,7 +26,7 @@ body {
     width: 45rem;
     height: 52rem;
     background-color: bisque;
-    box-shadow: 0 0.5rem 3rem red;
+    box-shadow: 0 0.5rem 3rem lightseagreen;
 }
 
 .month {
@@ -38,6 +39,7 @@ body {
     padding: 0 2rem;
     text-align: center;
     text-shadow: 0 0.3rem 0.5rem blue;
+    color: white;
 }
 
 .month h1 {
@@ -94,7 +96,6 @@ body {
 .days div:hover:not(.today) {
     background-color: white;
     border: 0.2rem solid gray;
-    cursor: pointer;
 }
 
 .prev-date, .next-date {
@@ -102,5 +103,14 @@ body {
 }
 
 .today {
-    background-color: cornflowerblue;
+    background-color: lightskyblue;
+}
+
+i {
+    padding: 5px;
+}
+
+i:hover {
+    cursor: pointer;
+    background-color: lightskyblue;
 }
