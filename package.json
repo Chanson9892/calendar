@@ -1,1 +1,23 @@
-{}
+{
+  "name": "calendar",
+  "description": "- Shows each month with excess days from the past month and next month to fill out the calendar. - Background transitions based on the month",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Chanson9892/calendar.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Chanson9892/calendar/issues"
+  },
+  "homepage": "https://Chanson9892.github.io/calendar",
+  "dependencies": {
+    "gh-pages": "^3.1.0"
+  }
+}
