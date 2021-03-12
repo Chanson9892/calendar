@@ -6,7 +6,7 @@
 Made with JavaScript, HTML, and CSS
 
 ### Deployment
-Check out the demo here:
+Check out the demo here:  https://chanson9892.github.io/calendar/
 
 ### Inspiration
 got inspiration for this project from: https://www.youtube.com/watch?v=o1yMqPyYeAo
