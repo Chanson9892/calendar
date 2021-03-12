@@ -1,0 +1,141 @@
+*{
+    box-sizing: border-box;
+    font-family: "Quicksand", sans-serif;
+}
+
+html {
+    font-size:62.5%
+}
+
+body {
+    background-repeat: no-repeat; 
+    background-size: cover;
+    overflow: hidden;
+    transition: background-image 1s linear;
+    min-height: 100%;
+    background-image: url('https://www.tomswallpapers.com/large/201612/85654.jpg');
+    background-image: url('https://wallpaperaccess.com/full/92653.jpg');
+    background-image: url('https://wallpaperaccess.com/full/2210016.jpg');
+    background-image: url('https://www.intrepidtravel.com/adventures/wp-content/uploads/2018/01/800x450.jpg');
+    background-image: url('https://wallpaperaccess.com/full/4659626.jpg');
+    background-image: url('https://wallpaperaccess.com/full/4330694.jpg');
+    background-image: url('https://www.wallpapers4u.org/wp-content/uploads/sky_nature_lake_clear_90817_1920x1080.jpg');
+    background-image: url('https://media.istockphoto.com/photos/sunflower-picture-id490787358?k=6&m=490787358&s=612x612&w=0&h=urWlgaYbRhsaqPXr-nnx8Ek5EfvkvoRBJberzn-wFMM=');
+    background-image: url('https://lh3.googleusercontent.com/proxy/On1WaOZW-NhoBdjyH5cCdqjKXfDqe-5IY8hp4BRamJK1oOWG-qNpBfVF_GP0qdSid11xikfesn-P8QY5BaGwjZjzNQKN8xvFMV7BxxEDhI9sSeQ');
+    background-image: url('https://media.istockphoto.com/photos/halloween-pumpkin-against-an-old-wood-background-picture-id1032952614?k=6&m=1032952614&s=612x612&w=0&h=97NLRDLPmSroJf1ewu8hD5Zv5Bw0SK3G5IGKkjghQ3U=');
+    background-image: url('https://www.wallpapertip.com/wmimgs/29-295683_desktop-background-november.jpg');
+    background-image: url('https://www.pixelstalk.net/wp-content/uploads/2016/11/Merry-Christmas-Tree-HD-Wallpaper.jpg');
+}
+
+.links {
+    position: absolute;
+    padding: .5rem 1rem;
+    top: 120px;
+    right: 100px;
+}
+
+a {
+    margin: 10px;
+}
+
+.wrapper {
+    width: 100%;
+    height: 100vh;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calendar {
+    width: 45rem;
+    height: 52rem;
+    background-color: bisque;
+    box-shadow: 0 0.5rem 3rem lightseagreen;
+}
+
+.month {
+    width: 100%;
+    height: 12rem;
+    background-color: rosybrown;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+    text-align: center;
+    text-shadow: 0 0.3rem 0.5rem blue;
+    color: white;
+}
+
+.month h1 {
+    font-size: 3rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    margin-bottom: 1rem;
+}
+
+.month p {
+    font-size: 1.6rem;
+}
+
+.weekdays {
+    width: 100%;
+    height: 5rem;
+    padding: 0 0.4rem;
+    display: flex;
+    align-items: center;
+}
+
+.weekdays div {
+    font-size: 1.5rem;
+    font-weight: 400;
+    letter-spacing: 0.1rem;
+    width: calc(44.2rem/7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 0 0.3rem 0.5rem blue;
+}
+
+.days {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0.2rem;
+}
+
+
+.days div {
+    font-size: 1.4rem;
+    margin: 0.3rem;
+    width: calc(40.2rem/7);
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 0 0.3rem 0.5rem blue;
+    transition: background-color 0.2s;
+}
+
+.days div:hover:not(.today) {
+    background-color: white;
+    border: 0.2rem solid gray;
+}
+
+.prev-date, .next-date {
+    opacity:0.5
+}
+
+.today {
+    background-color: lightskyblue;
+}
+
+i {
+    padding: 5px;
+}
+
+i:hover {
+    cursor: pointer;
+    background-color: lightskyblue;
+}
